@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.tmp
+
+# Intermediate captures kept locally but not needed in the public submission.
+evidence/camera_evidence.jpg
+evidence/yolo_sample_result.jpg
+evidence/README.txt
+

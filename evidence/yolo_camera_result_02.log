@@ -1,0 +1,26 @@
+[BPU_PLAT]BPU Platform Version(1.3.6)!
+[HBRT] set log level as 0. version = 3.15.55.0
+[DNN] Runtime version = 1.24.5_(3.15.55 HBRT)
+[A][DNN][packed_model.cpp:247][Model](2026-11-02,23:09:53.423.764) [HorizonRT] The model builder version = 1.23.5
+tensor type: NV12
+data type: uint8
+layout: NCHW
+shape: (1, 3, 672, 672)
+3
+tensor type: float32
+data type: float32
+layout: NHWC
+shape: (1, 84, 84, 255)
+tensor type: float32
+data type: float32
+layout: NHWC
+shape: (1, 42, 42, 255)
+tensor type: float32
+data type: float32
+layout: NHWC
+shape: (1, 21, 21, 255)
+bbox: [496.424133, 299.460236, 762.621582, 805.319214], score: 0.618079, id: 67, name: cell phone
+bbox: [493.743683, 298.630859, 764.314575, 806.72876], score: 0.529236, id: 65, name: remote
+draw result time is : 0.053870201110839844
+[W][DNN]bpu_model_info.cpp:491][Version](2026-11-02,23:09:53.592.977) Model: yolov5s_v2_672x672_bayese_nv12. Inconsistency between the hbrt library version 3.15.55.0 and the model build version 3.15.47.0 detected, in order to ensure correct model results, it is recommended to use compilation tools and the BPU SDK from the same OpenExplorer package.
+

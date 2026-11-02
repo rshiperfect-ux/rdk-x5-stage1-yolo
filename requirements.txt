@@ -1,0 +1,3 @@
+# OpenCV, NumPy, hobot_dnn and libpostprocess are supplied by the RDK OS image.
+# Do not replace the board-provided hobot_dnn runtime with a generic pip package.
+
