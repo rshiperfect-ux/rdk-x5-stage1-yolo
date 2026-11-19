@@ -1,6 +1,15 @@
-# RDK X5 USB Camera YOLOv5 BPU Demo
+# RDK Edge Guardian — RDK X5 Assistive Vision
 
-Stage 1 (Ignite) submission material for the Robotics Dream Keeper Challenge 2026 Winter. This project brings up an RDK X5, verifies network and SSH access, captures an image from a USB UVC camera, and runs YOLOv5 object detection on the RDK X5 BPU.
+Robotics Dream Keeper Challenge 2026 Winter project. Stage 1 brings up an RDK X5, verifies network and SSH access, captures an image from a USB UVC camera, and runs YOLOv5 object detection on the RDK X5 BPU. Stage 2 develops that working baseline into **RDK Edge Guardian**, a privacy-first assistive vision system designed for continuous ROS 2 operation.
+
+## Stage 2 design package
+
+- [Project proposal](PROPOSAL.md) — scenario, users, capabilities, innovation, and measurable goals
+- [AI and ROS 2 architecture](ARCHITECTURE.md) — data flow, module contracts, compute allocation, and failure handling
+- [Engineering plan](ENGINEERING_PLAN.md) — BOM, five principal risks, repository plan, and validation strategy
+- [Roadmap](ROADMAP.md) — dated path from design to the Stage 3 public demo
+
+Stage 2 values are engineering **targets**, not measured results. Actual RDK X5 measurements will be recorded during Stage 3.
 
 ## Result
 
@@ -31,6 +40,10 @@ The board successfully detected a mobile phone in a frame captured by the connec
 ```text
 rdk_stage1/
 ├── README.md
+├── PROPOSAL.md
+├── ARCHITECTURE.md
+├── ENGINEERING_PLAN.md
+├── ROADMAP.md
 ├── LICENSE
 ├── requirements.txt
 ├── src/
